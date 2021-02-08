@@ -54,7 +54,7 @@
 		<div class="col l8 s12">
 		  <!-- Blog entry -->
 		  <div class="card-4 card margin Color-white">
-			<img src="http://www.ostore.mx/media/wysiwyg/Hogar/LIBROS_2.jpg" alt="Nature" style="width:100%">
+			<img src="http://www.ostore.mx/media/wysiwyg/Hogar/LIBROS_2.jpg" alt="Books" style="width:100%">
 			<div class="container">
 			  <h3><b>MEJORES LIBROS DEL 2020</b></h3>
 			  <h5>Con el final del año 2020 algunos redactores de la Vanguardia han seleccionado una colección de 
@@ -86,7 +86,7 @@
 
 		  <!-- Blog entry -->
 		  <div class="card-4 card margin Color-white">
-		  <img src="https://www.avatrade.es/wp-content/uploads/2018/03/graficas-bursatiles.jpg" alt="Norway" style="width:100%">
+		  <img src="https://www.avatrade.es/wp-content/uploads/2018/03/graficas-bursatiles.jpg" alt="Gamestop" style="width:100%">
 			<div class="container">
 			  <h3><b>GAMESTOP</b></h3>
 			  <h5>Pequeños inversores se coordinan a través de Reddit y hacen subir 
@@ -150,6 +150,13 @@
 				<span class="large">GAMESTOP</span><br>
 				<span>Análisis sobre el tema de Gamestop</span>
 			  </li> 
+			  <li class="padding-16">
+				<a href="Pagina1.html" target="_blank">
+				  <img src="https://desarrolloweb.com/storage/manual_images/cPp3gH7yKOtpZL1rVbHmaqp7RotYShReX4FzLeoN.png" alt="Image" class="left margin-right" style="width:50px">
+				</a>
+				<span class="large">PRIMERA PAGINA EN HTML</span><br>
+				<span>Observar el primer diseño conceptual de una pagina con HTML</span>
+			  </li>
 			</ul>
 		  </div>
 		  <hr> 
@@ -175,7 +182,7 @@
 			</div>
 			<div class="container Color-white">
 			  <p>
-				<form action="/my-handling-form-page" method="post">
+				<form action="mailto: user_mail" method="post" enctype="text/plain" >
 					<label for="name">Nombre:</label>
 					<input type="text" id="name" name="user_name" />
 					<hr>
@@ -183,7 +190,14 @@
 					<input type="email" id="mail" name="user_mail" />
 					<hr>
 					<label for="mail">Confirmación de e-mail:</label>
-					<input type="email" id="mail" name="user_mail" />
+					<input type="email" id="mail" name="user_mailconfirmation" />
+					<hr>
+					<label for="notificaciones">Notificaciones: </label>
+					<select name="Desea recibir notificaciones del blog"> 
+					<option>                                         </option> 
+					<option>Sí, deseo recibir notificaciones del blog</option> 
+					<option>No deseo recibir notificaciones del blog</option> 
+					</select>
 					<hr>
 					<button type="submit" class="button padding-large Color-white border"> <b>Suscribirse</b></button>
 				</form>
@@ -202,8 +216,8 @@
 
 		<!-- Footer -->
 		<footer class="container center Color-dark-grey padding-32 margin-top">
-		  <a href="LibraryWeb1Page.html" target="_blank">
-		  <button class="button  Color-black disabled padding-large margin-bottom">Anterior >> </button>
+		  <a class="navlink.active" href="LibraryWeb1Page.html" target="_blank">
+		  <button class="button Color-black disabled padding-large margin-bottom">Anterior >> </button></a>
 		</footer>
 	</body>
 </html>
