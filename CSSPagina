@@ -46,90 +46,13 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 			
 	/* BODY */
 		/* Colores estáticos y cuando pones el raton encima cojidos de W3.css*/
-			.Color-amber,.Color-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
-			.Color-aqua,.Color-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
-			.Color-blue,.Color-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
-			.Color-light-blue,.Color-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
-			.Color-brown,.Color-hover-brown:hover{color:#fff!important;background-color:#795548!important}
-			.Color-cyan,.Color-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
-			.Color-blue-grey,.Color-hover-blue-grey:hover,.Color-blue-gray,.Color-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
-			.Color-green,.Color-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
-			.Color-light-green,.Color-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
-			.Color-indigo,.Color-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
-			.Color-khaki,.Color-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
-			.Color-lime,.Color-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
-			.Color-orange,.Color-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
-			.Color-deep-orange,.Color-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
-			.Color-pink,.Color-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
-			.Color-purple,.Color-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
-			.Color-deep-purple,.Color-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
-			.Color-red,.Color-hover-red:hover{color:#fff!important;background-color:#f44336!important}
-			.Color-sand,.Color-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
-			.Color-teal,.Color-hover-teal:hover{color:#fff!important;background-color:#009688!important}
-			.Color-yellow,.Color-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+		
 			.Color-white,.Color-hover-white:hover{color:#000!important;background-color:#fff!important}
 			.Color-black,.Color-hover-black:hover{color:#fff!important;background-color:#000!important}
 			.Color-grey,.Color-hover-grey:hover,.Color-gray,.Color-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
 			.Color-light-grey,.Color-hover-light-grey:hover,.Color-light-gray,.Color-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
 			.Color-dark-grey,.Color-hover-dark-grey:hover,.Color-dark-gray,.Color-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
-			.Color-pale-red,.Color-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
-			.Color-pale-green,.Color-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
-			.Color-pale-yellow,.Color-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
-			.Color-pale-blue,.Color-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
-			.Color-text-amber,.Color-hover-text-amber:hover{color:#ffc107!important}
-			.Color-text-aqua,.Color-hover-text-aqua:hover{color:#00ffff!important}
-			.Color-text-blue,.Color-hover-text-blue:hover{color:#2196F3!important}
-			.Color-text-light-blue,.Color-hover-text-light-blue:hover{color:#87CEEB!important}
-			.Color-text-brown,.Color-hover-text-brown:hover{color:#795548!important}
-			.Color-text-cyan,.Color-hover-text-cyan:hover{color:#00bcd4!important}
-			.Color-text-blue-grey,.Color-hover-text-blue-grey:hover,.Color-text-blue-gray,.Color-hover-text-blue-gray:hover{color:#607d8b!important}
-			.Color-text-green,.Color-hover-text-green:hover{color:#4CAF50!important}
-			.Color-text-light-green,.Color-hover-text-light-green:hover{color:#8bc34a!important}
-			.Color-text-indigo,.Color-hover-text-indigo:hover{color:#3f51b5!important}
-			.Color-text-khaki,.Color-hover-text-khaki:hover{color:#b4aa50!important}
-			.Color-text-lime,.Color-hover-text-lime:hover{color:#cddc39!important}
-			.Color-text-orange,.Color-hover-text-orange:hover{color:#ff9800!important}
-			.Color-text-deep-orange,.Color-hover-text-deep-orange:hover{color:#ff5722!important}
-			.Color-text-pink,.Color-hover-text-pink:hover{color:#e91e63!important}
-			.Color-text-purple,.Color-hover-text-purple:hover{color:#9c27b0!important}
-			.Color-text-deep-purple,.Color-hover-text-deep-purple:hover{color:#673ab7!important}
-			.Color-text-red,.Color-hover-text-red:hover{color:#f44336!important}
-			.Color-text-sand,.Color-hover-text-sand:hover{color:#fdf5e6!important}
-			.Color-text-teal,.Color-hover-text-teal:hover{color:#009688!important}
-			.Color-text-yellow,.Color-hover-text-yellow:hover{color:#d2be0e!important}
-			.Color-text-white,.Color-hover-text-white:hover{color:#fff!important}
-			.Color-text-black,.Color-hover-text-black:hover{color:#000!important}
-			.Color-text-grey,.Color-hover-text-grey:hover,.Color-text-gray,.Color-hover-text-gray:hover{color:#757575!important}
-			.Color-text-light-grey,.Color-hover-text-light-grey:hover,.Color-text-light-gray,.Color-hover-text-light-gray:hover{color:#f1f1f1!important}
-			.Color-text-dark-grey,.Color-hover-text-dark-grey:hover,.Color-text-dark-gray,.Color-hover-text-dark-gray:hover{color:#3a3a3a!important}
-			.Color-border-amber,.Color-hover-border-amber:hover{border-color:#ffc107!important}
-			.Color-border-aqua,.Color-hover-border-aqua:hover{border-color:#00ffff!important}
-			.Color-border-blue,.Color-hover-border-blue:hover{border-color:#2196F3!important}
-			.Color-border-light-blue,.Color-hover-border-light-blue:hover{border-color:#87CEEB!important}
-			.Color-border-brown,.Color-hover-border-brown:hover{border-color:#795548!important}
-			.Color-border-cyan,.Color-hover-border-cyan:hover{border-color:#00bcd4!important}
-			.Color-border-blue-grey,.Color-hover-border-blue-grey:hover,.Color-border-blue-gray,.Color-hover-border-blue-gray:hover{border-color:#607d8b!important}
-			.Color-border-green,.Color-hover-border-green:hover{border-color:#4CAF50!important}
-			.Color-border-light-green,.Color-hover-border-light-green:hover{border-color:#8bc34a!important}
-			.Color-border-indigo,.Color-hover-border-indigo:hover{border-color:#3f51b5!important}
-			.Color-border-khaki,.Color-hover-border-khaki:hover{border-color:#f0e68c!important}
-			.Color-border-lime,.Color-hover-border-lime:hover{border-color:#cddc39!important}
-			.Color-border-orange,.Color-hover-border-orange:hover{border-color:#ff9800!important}
-			.Color-border-deep-orange,.Color-hover-border-deep-orange:hover{border-color:#ff5722!important}
-			.Color-border-pink,.Color-hover-border-pink:hover{border-color:#e91e63!important}
-			.Color-border-purple,.Color-hover-border-purple:hover{border-color:#9c27b0!important}
-			.Color-border-deep-purple,.Color-hover-border-deep-purple:hover{border-color:#673ab7!important}
-			.Color-border-red,.Color-hover-border-red:hover{border-color:#f44336!important}
-			.Color-border-sand,.Color-hover-border-sand:hover{border-color:#fdf5e6!important}
-			.Color-border-teal,.Color-hover-border-teal:hover{border-color:#009688!important}
-			.Color-border-yellow,.Color-hover-border-yellow:hover{border-color:#ffeb3b!important}
-			.Color-border-white,.Color-hover-border-white:hover{border-color:#fff!important}
-			.Color-border-black,.Color-hover-border-black:hover{border-color:#000!important}
-			.Color-border-grey,.Color-hover-border-grey:hover,.Color-border-gray,.Color-hover-border-gray:hover{border-color:#9e9e9e!important}
-			.Color-border-light-grey,.Color-hover-border-light-grey:hover,.Color-border-light-gray,.Color-hover-border-light-gray:hover{border-color:#f1f1f1!important}
-			.Color-border-dark-grey,.Color-hover-border-dark-grey:hover,.Color-border-dark-gray,.Color-hover-border-dark-gray:hover{border-color:#616161!important}
-			.Color-border-pale-red,.Color-hover-border-pale-red:hover{border-color:#ffe7e7!important}.Color-border-pale-green,.Color-hover-border-pale-green:hover{border-color:#e7ffe7!important}
-			.Color-border-pale-yellow,.hover-border-pale-yellow:hover{border-color:#ffffcc!important}.Color-border-pale-blue,.Color-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+			
 		
 		/* Container para contenido de tamaño fijo centrado fijo y rodeado del resto de la página excepto el footer */
 			.content,.auto{margin-left:auto;margin-right:auto}
@@ -269,60 +192,3 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 				padding: 2rem;
 				font-size: 1.3rem;
 			}
-			
-		/*NAVLINK*/
-		
-		.nav-link{display:block;padding:.5rem 1rem;text-decoration:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out}
-		@media (prefers-reduced-motion:reduce){.nav-link{transition:none}}
-		.nav-link.disabled{color:#6c757d;pointer-events:none;cursor:default}
-		.nav-tabs{border-bottom:1px solid #dee2e6}
-		.nav-tabs .nav-link{margin-bottom:-1px;border:1px solid transparent;border-top-left-radius:.25rem;border-top-right-radius:.25rem}
-		.nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover{border-color:#e9ecef #e9ecef #dee2e6}
-		.nav-tabs .nav-link.disabled{color:#6c757d;background-color:transparent;border-color:transparent}
-		.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{color:#495057;background-color:#fff;border-color:#dee2e6 #dee2e6 #fff}
-		.nav-tabs .dropdown-menu{margin-top:-1px;border-top-left-radius:0;border-top-right-radius:0}.nav-pills .nav-link{border-radius:.25rem}
-		.nav-pills .nav-link.active,.nav-pills .show>.nav-link{color:#fff;background-color:#0d6efd}
-		.nav-fill .nav-item,.nav-fill>.nav-link{flex:1 1 auto;text-align:center}.nav-justified .nav-item,.nav-justified>.nav-link{flex-basis:0;flex-grow:1;text-align:center}
-		.tab-content>.tab-pane{display:none}.tab-content>.active{display:block}
-		.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem}
-		.navbar>.container,.navbar>.container-fluid,.navbar>.container-lg,.navbar>.container-md,.navbar>.container-sm,.navbar>.container-xl,.navbar>.container-xxl{display:flex;flex-wrap:inherit;align-items:center;justify-content:space-between}
-		.navbar-brand{padding-top:.3125rem;padding-bottom:.3125rem;margin-right:1rem;font-size:1.25rem;text-decoration:none;white-space:nowrap}
-		.navbar-nav{display:flex;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none}.navbar-nav .nav-link{padding-right:0;padding-left:0}
-		.navbar-nav .dropdown-menu{position:static}.navbar-text{padding-top:.5rem;padding-bottom:.5rem}.navbar-collapse{align-items:center;width:100%}
-		.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem;transition:box-shadow .15s ease-in-out}@media (prefers-reduced-motion:reduce){.navbar-toggler{transition:none}}
-		.navbar-toggler:hover{text-decoration:none}.navbar-toggler:focus{text-decoration:none;outline:0;box-shadow:0 0 0 .25rem}
-		.navbar-toggler-icon{display:inline-block;width:1.5em;height:1.5em;vertical-align:middle;background-repeat:no-repeat;background-position:center;background-size:100%}@media (min-width:576px){.navbar-expand-sm{flex-wrap:nowrap;justify-content:flex-start}
-		.navbar-expand-sm .navbar-nav{flex-direction:row}.navbar-expand-sm .navbar-nav .dropdown-menu{position:absolute}
-		.navbar-expand-sm .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-sm .navbar-collapse{display:flex!important}
-		.navbar-expand-sm .navbar-toggler{display:none}}@media (min-width:768px){.navbar-expand-md{flex-wrap:nowrap;justify-content:flex-start}
-		.navbar-expand-md .navbar-nav{flex-direction:row}.navbar-expand-md .navbar-nav .dropdown-menu{position:absolute}
-		.navbar-expand-md .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}
-		.navbar-expand-md .navbar-collapse{display:flex!important}
-		.navbar-expand-md .navbar-toggler{display:none}}@media (min-width:992px){.navbar-expand-lg{flex-wrap:nowrap;justify-content:flex-start}
-		.navbar-expand-lg .navbar-nav{flex-direction:row}.navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}
-		.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-lg .navbar-collapse{display:flex!important}
-		.navbar-expand-lg .navbar-toggler{display:none}}@media (min-width:1200px){.navbar-expand-xl{flex-wrap:nowrap;justify-content:flex-start}
-		.navbar-expand-xl .navbar-nav{flex-direction:row}.navbar-expand-xl .navbar-nav .dropdown-menu{position:absolute}
-		.navbar-expand-xl .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-xl .navbar-collapse{display:flex!important}
-		.navbar-expand-xl .navbar-toggler{display:none}}@media (min-width:1400px){.navbar-expand-xxl{flex-wrap:nowrap;justify-content:flex-start}
-		.navbar-expand-xxl .navbar-nav{flex-direction:row}.navbar-expand-xxl .navbar-nav .dropdown-menu{position:absolute}
-		.navbar-expand-xxl .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}.navbar-expand-xxl .navbar-collapse{display:flex!important}
-		.navbar-expand-xxl .navbar-toggler{display:none}}.navbar-expand{flex-wrap:nowrap;justify-content:flex-start}.navbar-expand .navbar-nav{flex-direction:row}
-		.navbar-expand .navbar-nav .dropdown-menu{position:absolute}.navbar-expand .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem}
-		.navbar-expand .navbar-collapse{display:flex!important}.navbar-expand .navbar-toggler{display:none}.navbar-light .navbar-brand{color:rgba(0,0,0,.9)}
-		.navbar-light .navbar-brand:focus,.navbar-light .navbar-brand:hover{color:rgba(0,0,0,.9)}.navbar-light .navbar-nav .nav-link{color:rgba(0,0,0,.55)}
-		.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{color:rgba(0,0,0,.7)}
-		.navbar-light .navbar-nav .nav-link.disabled{color:rgba(0,0,0,.3)}
-		.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .show>.nav-link{color:rgba(0,0,0,.9)}
-		.navbar-light .navbar-toggler{color:rgba(0,0,0,.55);border-color:rgba(0,0,0,.1)}
-		.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}.navbar-light .navbar-text{color:rgba(0,0,0,.55)}
-		.navbar-light .navbar-text a,.navbar-light .navbar-text a:focus,.navbar-light .navbar-text a:hover{color:rgba(0,0,0,.9)}
-		.navbar-dark .navbar-brand{color:#fff}.navbar-dark .navbar-brand:focus,.navbar-dark .navbar-brand:hover{color:#fff}
-		.navbar-dark .navbar-nav .nav-link{color:rgba(255,255,255,.55)}
-		.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover{color:rgba(255,255,255,.75)}
-		.navbar-dark .navbar-nav .nav-link.disabled{color:rgba(255,255,255,.25)}
-		.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .show>.nav-link{color:#fff}
-		.navbar-dark .navbar-toggler{color:rgba(255,255,255,.55);border-color:rgba(255,255,255,.1)}
-		.navbar-dark .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
-		
-		
